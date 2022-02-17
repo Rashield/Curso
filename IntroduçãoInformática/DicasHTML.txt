@@ -1,0 +1,16 @@
+<head> </head> cabeçalho da página, coisas que não aparecem pro usuário
+<title> nome que aparece na aba
+<meta charset=”utf-8” seta a padronização alfabética
+<a href”” target= “_blank”> link e abre em nova pagina</a>
+
+<ol type=””> lista ordenada com types I, A e 1.
+<li>
+<ul> lista não ordenada com types disc, square e circle. 
+
+<html>
+<header> topo
+<main> corpo
+<footer> rodapé
+</html>
+
+<p> paragrafo
