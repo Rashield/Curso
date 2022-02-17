@@ -1,0 +1,10 @@
+git init ---- inicia repositório local na pasta atual
+git config user.name "" ----- configura o nome /// git config user.email "" ---- configura o email
+
+git add . ---- add todos arquivos da pasta para o commit
+git status --- compara arquivos atuais com da nuvem
+git commit -m"" ---- manda arquivos para o repositório remoto
+git pull ---- baixa atualização de arquivos do repositório remoto
+git push ---- envia arquivos para repositório remoto
+
+git clone ---- clona repositório do github
