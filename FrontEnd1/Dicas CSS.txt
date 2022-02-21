@@ -9,3 +9,10 @@ font-weight: bold, lighter, normal
 text-align: center, left, right, inherit e justify
 text-decoration: line-through, underline, overline e none.
 line-height: espaçamento entre linhas
+
+imagem de fundo
+background-image: url ....
+background-repeat: repeat, no repeat, repeat-x, repeat-y, round e space
+background-position: right top, left bottom
+background-attachment: fixed, scroll, inherit e initial.
+background-size: 130px
