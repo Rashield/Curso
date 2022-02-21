@@ -1,0 +1,11 @@
+seletor {
+	color: purple;
+}
+
+font-family: arial ----- tipo da letra
+font-size: 23px; ------- tamanho fonte
+font-style: italic, normla ou oblique; ------- estilo fonte
+font-weight: bold, lighter, normal
+text-align: center, left, right, inherit e justify
+text-decoration: line-through, underline, overline e none.
+line-height: espaçamento entre linhas
