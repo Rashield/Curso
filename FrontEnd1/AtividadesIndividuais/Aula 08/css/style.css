@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color:#131313
+}
+h1{
+    color: white;
+    font-family: "Roboto";
+}
+.media-picture{
+    height: 400px;
+    background-size: 100%;
+    background-image: url("https://cdn-ext.fanatical.com/production/product/1280x720/3195fab1-5a9c-4a3d-b4d6-a31f876fe404.jpeg");
+    background-repeat: no repeat;
+    background-position: center;
+}
+.review-score{
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+}
+h2{
+    color: steelblue;
+}
+p{
+    color: #bdbdbd;
+    font-family: "Roboto";
+}
+a{
+    color: yellow;
+}
