@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+  }
+.fonte-lobster{
+    font-family: 'Lobster', cursive;
+}
+.topo-preso{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.header-container{
+    background: #6DA398;
+    width: 100%;
+}
+.topo-site{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 120px;
+    padding: 10px 20px;
+    width: 1280px;
+}
+.logo{
+    display:flex;
+    height: 100px;
+    padding-left: 25px;
+}
+.barra-nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding-right: 22px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color:blue;
+}
+h1{
+    transform: skewX(-20deg);
+    font-size: 75px;
+    font-weight: 900px;
+    align-self: center;
+    margin-left: 25px;
+    font-family: 'Hurricane', cursive;
+}
+h2{
+    margin-left: 47px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.banner-site{
+    margin-bottom: 25px;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.img-banner{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    position: absolute;
+}
+.texto-banner{
+    z-index: 1;
+    position: absolute;
+    margin: 25px 660px 0 45px;
+    text-align: justify;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.curiosidades{
+    display:flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.card-curiosidade{
+    width: 335px;
+    height: 534px;
+    background: #F3F3F3;
+    box-shadow: 20px 15px 15px rgb(0 0 0 / 50%);
+    border-radius: 20px;
+}
+.img{
+    height:200px;
+    width:335px;
+}
+.card-texto{
+    padding: 20px 10px;
+    text-align:center;
+    align-self: center;
+}
+.titulo-video{
+    margin-bottom: 40px;
+}
+.video{
+    margin: 0 auto;
+    width:1200px;
+    height:500px;
+}
+.rodape-site{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 450px;
+    margin: 0 auto;
+}
+.icones{
+    border-radius: 50%;
+    height: 125px;
+    width: 140px;
+}
+footer{
+    margin-top: 150px;
+    background-color: #6DA398;
+    height: 200px;
+    width: 100%;
+}
+.texto-icone{
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+}
+  
+  
+  @media (max-width:425px){
+    .topo-site{
+        display: block;
+        width: 425px;
+        height: 150px;
+      }
+      .logo{
+        height: 50px;
+        margin: 0 auto;
+      }
+      .barra-nav{
+          width:400px;
+          margin-top: 50px;
+      }
+      .texto-banner{
+          margin: 20px 25px;
+      }
+    .curiosidades{
+      display:block;
+    }
+    .card-curiosidade{
+      margin: 30px 50px;
+    }
+    .video{
+        width: 425px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .rodape-site{
+        display: block;
+        width: 425px;
+    }
+    footer{
+        height: 400px;
+    }
+    .card-icone{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+  }

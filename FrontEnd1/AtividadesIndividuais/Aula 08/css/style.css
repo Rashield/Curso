@@ -8,11 +8,11 @@ h1{
     font-family: "Roboto";
 }
 .media-picture{
-    height: 400px;
-    background-size: 100%;
     background-image: url("https://cdn-ext.fanatical.com/production/product/1280x720/3195fab1-5a9c-4a3d-b4d6-a31f876fe404.jpeg");
+    height:550px;
+    background-size: 100%;/*
     background-repeat: no repeat;
-    background-position: center;
+    background-position: center;*/
 }
 .review-score{
     color: white;
