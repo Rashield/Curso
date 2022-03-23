@@ -22,7 +22,7 @@
     margin: 0 auto;
     height: 120px;
     padding: 10px 20px;
-    width: 1280px;
+    width: 100vw;
 }
 .logo{
     display:flex;
@@ -71,7 +71,7 @@ p{
 .texto-banner{
     z-index: 1;
     position: absolute;
-    margin: 25px 660px 0 45px;
+    margin: 20px 35px;
     text-align: justify;
 }
 .container{
@@ -102,9 +102,9 @@ p{
 .titulo-video{
     margin-bottom: 40px;
 }
-.video{
+video{
     margin: 0 auto;
-    width:1200px;
+    width:100vw;
     height:500px;
 }
 .rodape-site{
@@ -157,8 +157,6 @@ footer{
     }
     .video{
         width: 425px;
-        display: flex;
-        justify-content: flex-start;
     }
     .rodape-site{
         display: block;
@@ -172,3 +170,4 @@ footer{
         margin-bottom: 50px;
     }
   }
+ 
