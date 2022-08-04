@@ -3,7 +3,7 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min) + min);
   }
-let winsUser=0, winsPC=0;
+let winsUser=0, winsPC=0,aviso=false;
 
 while(winsPC<2 && winsUser<2){
     let escolhaUser = prompt("Pedra,papel ou tesoura!");
@@ -16,7 +16,8 @@ while(winsPC<2 && winsUser<2){
     }else if(escolhaPC==3){
         escolhaPC = "Tesoura";
     }
-    
+    aviso=false;
+    console.log(aviso);
     if(escolhaUser == "Pedra" || escolhaUser == "pedra"){
         if(escolhaPC=="Papel"){
             winsPC++;
@@ -29,14 +30,18 @@ while(winsPC<2 && winsUser<2){
         }else if(escolhaPC=="Pedra"){
             winsUser++;
         }else{};
-    }else{
+    }else if(escolhaUser=="Tesoura" || escolhaUser=="tesoura"){
         if(escolhaPC=="Papel"){
             winsUser++;
         }else if(escolhaPC=="Pedra"){
             winsPC++;
         }else {};
+    }else{
+        aviso=true;
+        alert("Escolha inválida!!!");
     }
-    alert("Sua escolha - "+escolhaUser+"        "+winsUser+"  :  "+winsPC+"         "+escolhaPC+" - Escolha da máquina");
+    console.log(aviso);
+    if(aviso===false){alert("Sua escolha - "+escolhaUser+"        "+winsUser+"  :  "+winsPC+"         "+escolhaPC+" - Escolha da máquina");}
 }
 
 if(winsPC==2){
