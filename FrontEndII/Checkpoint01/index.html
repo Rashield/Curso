@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 8</title>
+</head>
+<body>
+    <div class="form">
+        <form class="formulario" method="post"> 
+            <p>Crie seu Card!!!</p>
+        
+        <div class="field">
+            <label for="titulo">Titulo:</label>
+            <input class="campo" type="text" id="titulo" name="titulo" placeholder="" required>
+        </div>
+        <div class="field">
+            <label for="url">URL da imagem:</label>
+            <input class="campo" type="text" id="url" name="url" placeholder="" required>
+        </div>   
+        <div class="field">
+            <label for="descricao">Descrição:</label>
+            <textarea class="campo" name="descricao" id="descricao"></textarea>
+        </div>
+             
+        <div class="botoes">
+            <input type="submit" id="enviar" class="botao-input" name="acao" value="Enviar">
+            <input type="reset" class="botao-input" name="acao" value="Limpar">
+        </div>
+        </form>
+    </div>
+    <div class="container">
+        
+    </div>
+</body>
+<script src="./scripts.js" defer></script>
+</html>
