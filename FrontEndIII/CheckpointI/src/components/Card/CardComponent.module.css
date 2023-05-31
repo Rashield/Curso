@@ -1,0 +1,15 @@
+.img {
+    width: 80%;
+    border-radius: 40%;
+}
+
+.div{
+    background-color: skyblue;
+    border-radius: 10%;
+    margin: 10px;
+}
+.title{
+    font-size: 25pt;
+    color:blanchedalmond;
+    font-weight: 500;
+}
