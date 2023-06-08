@@ -1,0 +1,11 @@
+.cardlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 200px;
+    height: 500px;
+    margin: 10px;
+  }
